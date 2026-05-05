@@ -1,0 +1,83 @@
+<?php
+echo "<pre style='font-family: Consolas; font-size:14px;'>";
+
+echo "==============================\n";
+echo "ACTIVITY 1: BASIC OUTPUT\n";
+echo "==============================\n";
+echo "Name: Gerecho Yapla\n";
+echo "Course: BSIT\n\n";
+
+echo "Guide Questions:\n";
+echo "1. Semicolon (;)\n";
+echo "2. echo is faster than print\n\n";
+
+
+echo "==============================\n";
+echo "ACTIVITY 2: MULTIPLE OUTPUT\n";
+echo "==============================\n";
+echo "Welcome!\nThis is PHP.\nEnjoy coding!\n\n";
+
+echo "Name: Gerecho Yapla\nCourse: BSIT\n\n";
+
+echo "No food but hungry?\n";
+echo "Eat water and chew.\n";
+echo "To fool your mind is to fool the food!\n\n";
+
+
+echo "==============================\n";
+echo "ACTIVITY 3 & 4: VARIABLES\n";
+echo "==============================\n";
+$name = "Maria"; $age = 20;
+echo "Name: $name\nAge: $age\n\n";
+
+$name = "Uvuvwevwevwe Onyetenyevwe Ugwemuhwem Osas";
+$age = 69;
+echo "Name: $name\nAge: $age\n\n";
+
+$name = "Ana"; $age = 18;
+echo "Corrected Age: $age\n\n";
+
+
+echo "==============================\n";
+echo "ACTIVITY 5: ARITHMETIC\n";
+echo "==============================\n";
+$a=10; $b=3;
+echo "Addition: ".($a+$b)."\n";
+echo "Subtraction: ".($a-$b)."\n";
+echo "Multiplication: ".($a*$b)."\n";
+echo "Division: ".($a/$b)."\n\n";
+
+$a=15; $b=2332124;
+echo "Addition: ".($a+$b)."\n";
+echo "Subtraction: ".($a-$b)."\n";
+echo "Multiplication: ".($a*$b)."\n";
+echo "Division: ".($a/$b)."\n\n";
+
+
+echo "==============================\n";
+echo "ACTIVITY 6: ASSIGNMENT\n";
+echo "==============================\n";
+$x=5; $x+=3;
+echo "Result: $x\n\n";
+
+
+echo "==============================\n";
+echo "ACTIVITY 7: COMPARISON\n";
+echo "==============================\n";
+$a=10; $b=5;
+echo "a > b: "; var_dump($a > $b);
+echo "a == b: "; var_dump($a == $b);
+echo "\n";
+
+
+echo "==============================\n";
+echo "MINI PROJECT: CALCULATOR\n";
+echo "==============================\n";
+$num1=8; $num2=4;
+echo "Sum: ".($num1+$num2)."\n";
+echo "Difference: ".($num1-$num2)."\n";
+echo "Product: ".($num1*$num2)."\n";
+echo "Quotient: ".($num1/$num2)."\n";
+
+echo "</pre>";
+?>
